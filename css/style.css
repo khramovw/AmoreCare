@@ -97,6 +97,18 @@ i {
   -webkit-background-size: cover;
           background-size: cover;
   height: 100vh; }
+  .iner::before {
+    content: '';
+    background: url("../img/cloud.png") no-repeat center;
+    width: 300px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    top: -2%;
+    right: 5%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
   .iner .container {
     height: 100%; }
   .iner .title {
