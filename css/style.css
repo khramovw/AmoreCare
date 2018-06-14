@@ -95,6 +95,10 @@ a {
 i {
   color: white; }
 
+.form-inline.mobile {
+  opacity: 0;
+  display: none; }
+
 /* iner classes */
 .iner {
   background-image: url("../img/baner-bg.jpg");
@@ -342,6 +346,36 @@ footer .contact-wrap, footer .copyrights {
   * {
     font-size: -webkit-calc( 100vw / 1920 * 50);
     font-size: calc( 100vw / 1920 * 50); }
+  .navbar .navbar-toggler {
+    right: 16px;
+    top: 16px;
+    position: absolute; }
+  .navbar .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    left: 0;
+    top: 102px;
+    position: absolute;
+    text-align: right;
+    padding-right: 16px; }
+  .navbar .form-inline {
+    opacity: 0;
+    display: none; }
+    .navbar .form-inline.mobile {
+      display: block;
+      opacity: 1;
+      position: absolute;
+      top: 3px;
+      right: 108px; }
+      .navbar .form-inline.mobile::after {
+        content: '';
+        background-color: white;
+        display: block;
+        height: 44px;
+        width: 1px;
+        position: absolute;
+        top: 0;
+        right: -16px; }
   .iner {
     height: 100vw; }
     .iner::before {
