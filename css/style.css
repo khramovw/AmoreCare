@@ -349,7 +349,8 @@ footer .contact-wrap, footer .copyrights {
   .navbar .navbar-toggler {
     right: 16px;
     top: 16px;
-    position: absolute; }
+    position: absolute;
+    background-color: #fff; }
   .navbar .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -386,3 +387,27 @@ footer .contact-wrap, footer .copyrights {
     padding-top: 5em; }
   .copyrights .title, .copyrights p {
     margin-left: -15px; } }
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: -webkit-calc( 100vw / 1920 * 82);
+    font-size: calc( 100vw / 1920 * 82); }
+  .iner {
+    height: 100vh;
+    text-align: center; }
+    .iner .title {
+      margin-top: 12vh; }
+  .navbar-brand img {
+    width: 108px;
+    margin-top: 4px; }
+  .navbar-toggler-icon {
+    font-size: 20px; }
+  .navbar .form-inline.mobile {
+    top: -1px; }
+    .navbar .form-inline.mobile::after {
+      top: 8px; }
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link {
+    font: 600 2em 'Poppins', sans-serif; }
+  .navbar .navbar-collapse {
+    top: 64px; } }
