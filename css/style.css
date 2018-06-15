@@ -410,4 +410,6 @@ footer .contact-wrap, footer .copyrights {
   .navbar-light .navbar-nav .nav-link {
     font: 600 2em 'Poppins', sans-serif; }
   .navbar .navbar-collapse {
-    top: 64px; } }
+    top: 64px; }
+  .latest-news .container-fluid, .latest-news .wraper {
+    padding: 0; } }
