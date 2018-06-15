@@ -412,4 +412,18 @@ footer .contact-wrap, footer .copyrights {
   .navbar .navbar-collapse {
     top: 64px; }
   .latest-news .container-fluid, .latest-news .wraper {
-    padding: 0; } }
+    padding: 0; }
+  .latest-news .item-box + .item-box {
+    margin-top: 40px; }
+  footer .subscribe-wrap .form-row .btn {
+    margin-left: 0;
+    margin-top: 8px;
+    height: 3.240em; }
+  footer .contact-wrap {
+    padding-top: 8em; }
+    footer .contact-wrap .title-soc {
+      margin-bottom: 12px; }
+      footer .contact-wrap .title-soc + ul {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        padding-top: 15px;
+        margin-bottom: -20px; } }
