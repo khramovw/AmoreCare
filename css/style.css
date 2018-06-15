@@ -67,6 +67,12 @@ a {
     color: #fff;
     background-color: #006699; }
 
+.accordion {
+  display: none !important; }
+
+.mobile-ul {
+  display: initial; }
+
 .navbar form .btn-default,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link,
@@ -426,4 +432,46 @@ footer .contact-wrap, footer .copyrights {
       footer .contact-wrap .title-soc + ul {
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         padding-top: 15px;
-        margin-bottom: -20px; } }
+        margin-bottom: -20px; }
+  footer .mobile-ul {
+    display: none !important; }
+  footer .accordion {
+    display: block !important;
+    margin-top: 24px; }
+    footer .accordion .card {
+      background-color: transparent !important;
+      -webkit-background-clip: border-box;
+              background-clip: border-box;
+      border: 1px solid transparent !important;
+      -webkit-border-radius: 0;
+              border-radius: 0;
+      padding: 0 16px; }
+    footer .accordion .card-header {
+      background-color: transparent !important;
+      padding-left: 0;
+      border-bottom: none; }
+      footer .accordion .card-header::after {
+        position: absolute;
+        top: 32px;
+        right: 5%;
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 12px 12px 0 12px;
+        border-color: white transparent transparent transparent; }
+    footer .accordion button {
+      color: #fff !important;
+      font: 600 .889322em 'Poppins', sans-serif;
+      padding-left: 0; }
+      footer .accordion button:focus {
+        text-decoration: none; }
+      footer .accordion button.collapsed::after {
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        width: 92%;
+        left: 10px;
+        bottom: 0; }
+    footer .accordion li + li {
+      margin-top: 16px; } }
