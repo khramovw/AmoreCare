@@ -31,7 +31,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
 
 h1.title {
-font-size: 1em; }
+  font-size: 1em; }
+
+h1.title.title-branch.text-center {
+  font-size: 3em; }
 
 ul, ol {
   margin: 0;
